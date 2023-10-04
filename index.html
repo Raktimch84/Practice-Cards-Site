@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #425b90;
+background-image: linear-gradient(315deg, #202e4d 0%, #294364 74%);
+
+        }
+        .boxes{
+            height: 400px;
+            width: 900px;
+            display: flex;
+            flex-direction: row;
+            border: 1px solid black;
+            box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+        }
+        .box1{
+            height: 100%;
+            width: 50%;
+            background-color:#520a52;
+            display: flex;
+            flex-direction: column;
+            justify-content:center;
+            align-items: center;
+        }
+        .box2{
+            height: 100%;
+            width: 50%;
+            background-color: aqua;
+        }
+        .box2 img{
+            height: 100%;
+            width: 100%;
+        }
+        .text1 p{
+            font-size: 30px;
+            color: white;
+            font-weight: bold;
+            text-align: left;
+            padding-left: 60px;
+            padding-right: 50px;
+        }
+        .text2 p{
+            color: white;
+            font-size: medium;
+            text-align: left;
+            padding-left: 60px;
+            padding-right: 57px;
+        }
+        .text3{
+           display: flex;
+           flex-direction: row;
+           color: white;
+           text-align: left;
+           padding: 20px;
+           gap: 70px;
+        }
+        .k1{
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="boxes">
+            <div class="box1">
+                <div class="text1">
+                    <p>Get insights that help your business grow</p>
+                </div>
+                <div class="text2">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit nam, ad obcaecati necessitatibus placeat dolor cum quam officiis aspernatur,
+                         minus corporis</p>
+                </div>
+                <div class="text3">
+                    <div class="first">
+                        <h2>10K+</h2>
+                        <p>Comments</p>
+                    </div>
+                    <div class="second">
+                        <h2>214</h2>
+                        <p>Paid users</p>
+                    </div>
+                    <div class="third">
+                        <h2>12M+</h2>
+                        <p>Views</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box2">
+                <img src="icon.jpg" alt="icon">
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
